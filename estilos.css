@@ -90,6 +90,7 @@
 }
 /* Cuerpo */
  body, html {
+	 scroll-behavior: smooth; /* Habilita el desplazamiento suave para toda la página, si se desea */
      margin: 0;
      padding: 0;
      width: 100%;
@@ -147,32 +148,18 @@
     /* Asegura que el botón esté por encima de las imágenes */
 }
  .btn-descubrir {
-     background-color: #4CAF50;
-    /* Color de fondo */
-     color: white;
-    /* Color del texto */
-     padding: 8px 16px;
-    /* Espaciado interno reducido */
-     font-size: 14px;
-    /* Tamaño de fuente menor */
-     text-align: center;
-    /* Centrar el texto */
-     text-decoration: none;
-    /* Sin subrayado */
-     border-radius: 4px;
-    /* Bordes redondeados más pequeños */
-     border: none;
-    /* Sin borde */
-     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
-    /* Sombra suave reducida */
-     transition: background-color 0.3s, transform 0.3s;
-    /* Animaciones suaves */
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; /* Cambia de color suavemente en hover */
 }
- .btn-descubrir:hover {
-     background-color: #45a049;
-    /* Color al pasar el mouse */
-     transform: translateY(-2px);
-    /* Efecto de levantamiento al pasar el mouse */
+
+.btn-descubrir:hover {
+    background-color: #0056b3; /* Color más oscuro en hover */
 }
  .btn-descubrir:active {
      background-color: #388E3C;
