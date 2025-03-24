@@ -117,7 +117,7 @@
                   <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
                   <p>Pera Deshidratada</p>
                   <div>
-                     <a href="manzana-deshidratada.php" class="btn-mas-informacion">Más Información</a>
+                     <a href="pera-deshidratada.php" class="btn-mas-informacion">Más Información</a>
                   </div>
                </div>
             </div>
@@ -126,7 +126,7 @@
                   <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
                   <p>Moras Deshidratadas</p>
                   <div>
-                     <a href="manzana-deshidratada.php" class="btn-mas-informacion">Más Información</a>
+                     <a href="moras-deshidratadas.php" class="btn-mas-informacion">Más Información</a>
                   </div>
                </div>
             </div>
@@ -135,7 +135,7 @@
                   <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
                   <p>Mix de Frutas Deshidratadas</p>
                   <div>
-                     <a href="manzana-deshidratada.php" class="btn-mas-informacion">Más Información</a>
+                     <a href="mix-frutas-deshidratadas.php" class="btn-mas-informacion">Más Información</a>
                   </div>
                </div>
             </div>
