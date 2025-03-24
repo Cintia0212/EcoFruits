@@ -65,12 +65,12 @@
 		       
 		<div id="contenido-producto" class="contenido-producto">
 
-			<h1>Manzana Deshidratada</h1>
+			<h1>Moras Deshidratadas</h1>
 			<div class="producto-detalle">
 				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
-					<p>Un clásico delicioso, con el dulce natural de la manzana en su máxima expresión.🍏</p>
+					<p> Un snack lleno de antioxidantes y con un sabor fresco que cautiva.🫐</p>
 					<p>Cada bolsa de 25 g es práctica y perfecta para llevar, disfrutando 
 					siempre de frutas 100% naturales en su mejor versión. 
 					¡Natural Bites es la opción ideal para una vida activa y saludable!</p>
@@ -86,7 +86,7 @@
 					</div>
 					
 					<div class="codigo-referencia">
-						Código de referencia: DUF001
+						Código de referencia: DUF003	
 					</div>
 
 					<!-- Sección de precios -->

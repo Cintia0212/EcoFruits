@@ -65,15 +65,17 @@
 		       
 		<div id="contenido-producto" class="contenido-producto">
 
-			<h1>Manzana Deshidratada</h1>
+			<h1>Mix de Frutas Deshidratas</h1>
 			<div class="producto-detalle">
 				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
-					<p>Un clásico delicioso, con el dulce natural de la manzana en su máxima expresión.🍏</p>
+					<p>La combinación perfecta de manzana, pera, melocotón y moras, para un 
+					sabor fresco y equilibrado.🍏🍐🍑🫐</p>
 					<p>Cada bolsa de 25 g es práctica y perfecta para llevar, disfrutando 
 					siempre de frutas 100% naturales en su mejor versión. 
 					¡Natural Bites es la opción ideal para una vida activa y saludable!</p>
+
 					
 					<div class="caracteristicas">
 						<h3>Características Destacadas:</h3>
@@ -86,11 +88,12 @@
 					</div>
 					
 					<div class="codigo-referencia">
-						Código de referencia: DUF001
+						Código de referencia: DUF004	
 					</div>
 
 					<!-- Sección de precios -->
 					<div class="precios-prod">
+						
 						<div class="precio-individual">
 							<span class="tipo-producto">Pack de 20 bolsas:</span> 26,00 €
 							<a href="#" class="btn-comprar">Comprar</a>
