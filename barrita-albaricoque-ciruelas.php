@@ -66,12 +66,14 @@
             </ul>
         </nav>
         <div id="contenido-producto" class="contenido-producto">
-            <h1>Barrita de Cereal con Albaricoque, Ciruelas y Limón con Chocolate Blanco</h1>
+            <h1><p>Barrita de Cereal con Albaricoque, <br>
+			Ciruelas y Limón con Chocolate Blanco</p></h1>
             <div class="producto-detalle">
                 <img src="img/productos/barrita-albaricoque-ciruelas.jpg" alt="Barrita de Albaricoque y Ciruelas" class="imagen-producto">
                 <div class="descripcion-producto">
                     <h2>Descripción del Producto</h2>
-                    <p>Una mezcla única de albaricoque, ciruelas y limón, con un toque de chocolate blanco, ideal para los paladares más exigentes.</p>
+                    <p>Una mezcla única de albaricoque, ciruelas y limón, con un toque de 
+					chocolate blanco, ideal para los paladares más exigentes.</p>
                     
                     <div class="caracteristicas">
                         <h3>Características Destacadas:</h3>
@@ -84,16 +86,17 @@
                     </div>
                     
                     <div class="codigo-referencia">
-                        Código de referencia: DUB001 
+                       <p> Código de referencia de caja de 6: DUB002-6 </p>
+					   <p> Código de referencia de caja de 24: DUB002-24 </p>
                     </div>
 
                     <div class="precios-prod">
                         <div class="precio-individual">
-                            <span class="tipo-producto">Caja de 6:</span> 2,95 €
+                            <span class="tipo-producto">Caja de 6: </span> 2,95€
                             <a href="#" class="btn-comprar">Comprar</a>
                         </div>
                         <div class="precio-individual">
-                            <span class="tipo-producto">Caja de 24:</span> 11,80 €
+                            <span class="tipo-producto">Caja de 24: </span> 11,80 €
                             <a href="#" class="btn-comprar">Comprar</a>
                         </div>
                     </div>
@@ -118,3 +121,5 @@
     </footer>
 </body>
 </html>
+                    
+                  

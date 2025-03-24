@@ -56,18 +56,11 @@
 			<h2>Productos Ecológicos</h2>
 		</div>
 		<nav>
-			<ul class="submenu">
-		          <!-- Llamamos a la función mostrarSubseccion al hacer clic -->
-		          <li>
-		            <a href="index.php#tienda">Barritas</a>
-		          </li>
-		          <li>
-		            <a href="#fruta-deshidratada" onclick="mostrarSubseccion('fruta-deshidratada');">Fruta deshidratada</a>
-		          </li>
-		          <li>
-		            <a href="#maquinas-vending" onclick="mostrarSubseccion('maquinas-vending');">Máquinas de vending</a>
-		          </li>
-		        </ul> 
+			<ul class="submenu"> 
+                <li><a href="index.php#barritas">Barritas de fruta</a></li>
+                <li><a  href="index.php#fruta-deshidratada"> Fruta Deshidratada</a></li>
+                <li><a href="index.php#maquinas-vending">Máquinas de vending</a></li>
+            </ul>
 		</nav>
 		<div id="contenido-producto" class="contenido-producto">
 
@@ -89,20 +82,20 @@
 					</div>
 					
 					<div class="codigo-referencia">
-						Código de referencia: DUB003
-					</div>
+                       <p> Código de referencia de caja de 6: DUB003-6 </p>
+					   <p> Código de referencia de caja de 24: DUB003-24 </p>
+                    </div>
 
-					<!-- Sección de precios -->
-					<div class="precios-prod">
-						<div class="precio-individual">
-							<span class="tipo-producto">Caja de 6:</span> 2,95 €
-							<a href="#" class="btn-comprar">Comprar</a>
-						</div>
-						<div class="precio-individual">
-							<span class="tipo-producto">Caja de 24:</span> 11,80 €
-							<a href="#" class="btn-comprar">Comprar</a>
-						</div>
-					</div>
+                    <div class="precios-prod">
+                        <div class="precio-individual">
+                            <span class="tipo-producto">Caja de 6: </span> 2,95€
+                            <a href="#" class="btn-comprar">Comprar</a>
+                        </div>
+                        <div class="precio-individual">
+                            <span class="tipo-producto">Caja de 24: </span> 11,80 €
+                            <a href="#" class="btn-comprar">Comprar</a>
+                        </div>
+                    </div>
 
 					<p class="precio"><strong>Elige tu opción y disfruta de un snack saludable.</strong></p>
 				</div>
