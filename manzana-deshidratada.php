@@ -62,7 +62,7 @@
 		            <a href="index.php#tienda">Barritas</a>
 		          </li>
 		          <li>
-		            <a href="#fruta-deshidratada" onclick="mostrarSubseccion('fruta-deshidratada');">Fruta deshidratada</a>
+		            <a href="index.php" onclick="mostrarSeccion('tienda'); mostrarSubseccion('fruta-deshidratada');">Fruta deshidratada</a>
 		          </li>
 		          <li>
 		            <a href="#maquinas-vending" onclick="mostrarSubseccion('maquinas-vending');">Máquinas de vending</a>
@@ -71,12 +71,12 @@
 		</nav>
 		<div id="contenido-producto" class="contenido-producto">
 
-			<h1>Avena Rellenas de Fresa y Pera (Sin Gluten, Sin Lactosa)</h1>
+			<h1>Manzana Deshidratada</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/barrita-fresa-pera.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
-					<p>Descubre nuestra barrita de avena rellena de fresa y pera, diseñada para ser un snack saludable y delicioso. Perfecta para cualquier momento del día.</p>
+					<p>Un clásico delicioso, con el dulce natural de la manzana en su máxima expresión.</p>
 					
 					<div class="caracteristicas">
 						<h3>Características Destacadas:</h3>
@@ -89,7 +89,7 @@
 					</div>
 					
 					<div class="codigo-referencia">
-						Código de referencia: DUB001 
+						Código de referencia: DUB004
 					</div>
 
 					<!-- Sección de precios -->

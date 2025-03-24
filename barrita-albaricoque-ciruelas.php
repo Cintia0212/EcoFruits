@@ -62,7 +62,7 @@
             <ul class="submenu"> 
                 <li><a href="index.php#barritas">Barritas de fruta</a></li>
                 <li><a  href="index.php#fruta-deshidratada"> Fruta Deshidratada</a></li>
-                <li><a href="index.php#maquinas-vending.php">Máquinas de vending</a></li>
+                <li><a href="index.php#maquinas-vending">Máquinas de vending</a></li>
             </ul>
         </nav>
         <div id="contenido-producto" class="contenido-producto">
