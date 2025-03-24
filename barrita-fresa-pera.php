@@ -28,8 +28,8 @@
         <nav>
             <ul class="menu">
                 <li><a href="index.php#tienda">Productos</a></li>
-                <li><a href="index.php#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="index.php#contacto">Contacto</a></li>
+                <li><a href="#" class="submenu-enlace" data-subseccion="fruta-deshidratada">Fruta deshidratada</a></li>
+				<li><a href="#" class="submenu-enlace" data-subseccion="maquinas-vending">Máquinas de vending</a></li>
             </ul>
             <ul class="reloj-container">
                 <p class="hora" id="reloj"></p>

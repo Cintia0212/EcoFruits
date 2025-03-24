@@ -84,18 +84,19 @@ document.addEventListener("DOMContentLoaded", function() {
     actualizarReloj();
 
     // Manejo de la URL para redirigir y desplazarse a la sección correcta
-    const urlParams = new URLSearchParams(window.location.search);
-    const subseccion = urlParams.get('subseccion');
+    const hash = window.location.hash; // Obtener el hash de la URL
+    const subseccion = hash ? hash.substring(1) : ''; // Quitar el '#' del hash
 
     // Siempre muestra la sección "tienda"
     mostrarSeccion('tienda'); 
 
-    if (subseccion) {
-        mostrarSubseccion(`subseccion-${subseccion}`); // Mostrar la subsección
+   if (subseccion) {
+    console.log("Mostrando subsección:", subseccion); // Agregar este log
+    mostrarSubseccion(subseccion); // Mostrar la subsección
 
         // Asegurándonos de que el desplazamiento se ejecute después de que la sección sea visible
         setTimeout(() => {
-            const elementoSubseccion = document.getElementById(`subseccion-${subseccion}`);
+            const elementoSubseccion = document.getElementById(subseccion);
             if (elementoSubseccion) {
                 elementoSubseccion.scrollIntoView({ behavior: 'smooth' }); // Desplazarse suavemente
             }
@@ -108,27 +109,5 @@ document.addEventListener("DOMContentLoaded", function() {
                 tiendaElemento.scrollIntoView({ behavior: 'smooth' }); // Desplazarse suavemente
             }
         }, 100);
-    }
-
-    // Manejo de clics en el submenú
-    const submenuEnlaces = document.querySelectorAll('.submenu-enlace'); 
-    submenuEnlaces.forEach(enlace => {
-        enlace.addEventListener('click', function(event) {
-            event.preventDefault(); // Evitar el comportamiento por defecto del enlace
-            
-            const subseccion = this.getAttribute('data-subseccion'); // Obtener la subsección
-            
-            // Redirigir a index.php con parámetros de sección (siempre "tienda") y subsección
-            window.location.href = `index.php?seccion=tienda&subseccion=${subseccion}`;
-        });
-    });
-    
-    // Manejo de clic en el botón "Volver a la Tienda"
-    const volverBoton = document.getElementById("volver-tienda");
-    if (volverBoton) {
-        volverBoton.addEventListener("click", function() {
-            // Redirigir a index.php a la sección "tienda"
-            window.location.href = `index.php?seccion=tienda`;
-        });
     }
 });

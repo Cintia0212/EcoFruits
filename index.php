@@ -50,7 +50,7 @@
 		        <ul class="submenu">
 		          <!-- Llamamos a la función mostrarSubseccion al hacer clic -->
 		          <li>
-		            <a href="#barritas" onclick="mostrarSubseccion('tienda');">Barritas de fruta</a>
+		            <a href="#barritas" onclick="mostrarSubseccion('barritas');">Barritas de fruta</a>
 		          </li>
 		          <li>
 		            <a href="#fruta-deshidratada" onclick="mostrarSubseccion('fruta-deshidratada');">Fruta deshidratada</a>
@@ -60,7 +60,7 @@
 		          </li>
 		        </ul>
 		      </nav>
-		      <section id="barritas" class="subseccion" style="display: block;">
+		      <section id="barritas" class="subseccion" style="display: none;">
 		        <!-- Display por defecto -->
 		        <div id="productos">
 		          <div class="product">
@@ -102,19 +102,19 @@
 		        </div>
 		      </section>
 		      <section id="fruta-deshidratada" class="subseccion" style="display: none;">
-		        <div id="productos">
-		          <div class="product">
-		            <div class="product-content">
-		              <img src="img/productos/fruta-deshidradata.jpg" alt="Producto">
-		              <h3>Fruta Deshidratada Mixta (Pera, Manzana, Piña):</h3>
-		              <p class="price">$79.99</p>
-		            </div>
-		            <div class="product-description">
-		              <p>Una mezcla perfecta de frutas deshidratadas, ideales para un snack saludable.</p>
-		            </div>
-		          </div>
-		        </div>
-		      </section>
+    <div id="productos">
+        <div class="product">
+            <div class="product-content">
+                <img src="img/productos/fruta-deshidradata.jpg" alt="Producto">
+                <h3>Fruta Deshidratada Mixta (Pera, Manzana, Piña):</h3>
+                <p class="price">$79.99</p>
+            </div>
+            <div class="product-description">
+                <p>Una mezcla perfecta de frutas deshidratadas, ideales para un snack saludable.</p>
+            </div>
+        </div>
+    </div>
+</section>
 		      <section id="maquinas-vending" class="subseccion" style="display: none;">
 		        <div id="productos">
 		          <div class="product">
