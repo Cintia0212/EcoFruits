@@ -14,17 +14,17 @@
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="#barritas" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
+                    <a href="index.php#tienda" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
                 </li>
                 <li>
-                    <a href="#sobre-nosotros" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
                 </li>
                 <li>
-                    <a href="contacto.php">Contacto</a> <!-- Se corrigió el onclick -->
+                    <a href="contacto.php">Contacto</a>
                 </li>
             </ul>
             <div class="reloj-container">
-                <p class="hora" id="reloj"></p> <!-- Se eliminó el ul innecesario -->
+                <p class="hora" id="reloj"></p>
             </div>
         </nav>
     </header>
@@ -39,7 +39,7 @@
 				<img src="img/carrusel/gif.gif" class="carrusel-imagen" alt="Imagen 6">
 			</div>
 			<div class="carrusel-boton">
-				<a href="#barritas" class="btn-descubrir" onclick="mostrarSubseccion('barritas');">Descubrir productos</a>
+				<a href="index.php#barritas" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');" class="btn-descubrir">Descubrir productos</a>
 			</div>
 		</div>
 		</section>

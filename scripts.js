@@ -77,71 +77,8 @@ function actualizarReloj() {
     document.getElementById('reloj').textContent = tiempo;
 }
 
-// Traducciones
-const traducciones = {
-    ca: {
-        titlePage: "Natural Fruits S.Coop.S - Índex",
-        linkProductos: "Productes",
-        linkSobreNosotros: "Sobre Nosaltres",
-        linkContacto: "Contacte",
-        productosTitulo: "Productes Ecològics",
-        contactoTexto: "Informació sobre com contactar amb nosaltres.",
-        sobreNosotrosTexto: "A Natural Fruits S.L.S, ens dediquem a oferir productes ecològics de la més alta qualitat...",
-        barritaFresaPera: "Avena rellenas de fresa y pera (sense gluten, sense lactosa)",
-        manzanaDeshidratada: "Poma deshidratada",
-        maquinaVending: "Màquina de vending",
-        contactoTitulo: "Contacte",
-        sobreNosotrosTitulo: "Qui som"
-    },
-    es: {
-        titlePage: "Natural Fruits S.Coop.S - Índice",
-        linkProductos: "Productos",
-        linkSobreNosotros: "Sobre Nosotros",
-        linkContacto: "Contacto",
-        productosTitulo: "Productos Ecológicos",
-        contactoTexto: "Información sobre cómo contactarnos.",
-        sobreNosotrosTexto: "En Natural Fruits S.L.S, nos dedicamos a ofrecer productos ecológicos de la más alta calidad...",
-        barritaFresaPera: "Avena rellenas de fresa y pera (sin gluten, sin lactosa)",
-        manzanaDeshidratada: "Manzana deshidratada",
-        maquinaVending: "Máquina de vending",
-        contactoTitulo: "Contacto",
-        sobreNosotrosTitulo: "Quiénes somos"
-    }
-};
-
-// Función para cambiar el idioma
-function cambiarIdioma() {
-    const idiomaSeleccionado = document.getElementById('idiomaSelect').value;
-    
-    // Cambiar el título
-    document.getElementById('titlePage').innerText = traducciones[idiomaSeleccionado].titlePage;
-
-    // Cambiar enlaces
-    document.getElementById('linkProductos').innerText = traducciones[idiomaSeleccionado].linkProductos;
-    document.getElementById('linkSobreNosotros').innerText = traducciones[idiomaSeleccionado].linkSobreNosotros;
-    document.getElementById('linkContacto').innerText = traducciones[idiomaSeleccionado].linkContacto;
-
-    // Cambiar contenido de secciones
-    document.getElementById('titulo-productos').innerText = traducciones[idiomaSeleccionado].productosTitulo;
-    document.getElementById('contacto').innerText = traducciones[idiomaSeleccionado].contactoTexto;
-    document.getElementById('sobre-nosotros').innerText = traducciones[idiomaSeleccionado].sobreNosotrosTexto;
-
-    // Cambiar contenido de productos
-    document.getElementById('barrita-fresa-pera').innerText = traducciones[idiomaSeleccionado].barritaFresaPera;
-    document.getElementById('manzana-deshidratada').innerText = traducciones[idiomaSeleccionado].manzanaDeshidratada;
-    document.getElementById('maquina-vending').innerText = traducciones[idiomaSeleccionado].maquinaVending;
-}
-
 // Esperar a que el contenido del DOM esté cargado
 document.addEventListener("DOMContentLoaded", function() {
-    // Establecer idioma por defecto: Catalán
-    const idiomaPorDefecto = 'ca';
-    document.getElementById('idiomaSelect').value = idiomaPorDefecto;
-
-    // Llamar a la función para establecer el idioma correctamente
-    cambiarIdioma();
-
-    // Resto del código para el carrusel, reloj, etc.
     aleatorizarImagenes();
     iniciarCarrusel();
     setInterval(actualizarReloj, 1000);

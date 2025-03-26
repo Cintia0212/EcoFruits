@@ -29,13 +29,19 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="index.php#tienda">Productos</a></li>
-                <li><a href="index.php#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="index.php#contacto">Contacto</a></li>
+                <li>
+                    <a href="index.php#tienda" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
+                </li>
+                <li>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.php">Contacto</a>
+                </li>
             </ul>
-            <ul class="reloj-container">
+            <div class="reloj-container">
                 <p class="hora" id="reloj"></p>
-            </ul>
+            </div>
         </nav>
     </header>
     

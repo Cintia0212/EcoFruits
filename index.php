@@ -17,7 +17,7 @@
                     <a href="#barritas" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
                 </li>
                 <li>
-                    <a href="#sobre-nosotros" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
                 </li>
                 <li>
                     <a href="contacto.php">Contacto</a> <!-- Se corrigió el onclick -->

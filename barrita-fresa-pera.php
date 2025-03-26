@@ -27,13 +27,19 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="index.php#tienda">Productos</a></li>
-                <li><a href="index.php#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="index.php#contacto">Contacto</a></li>
+                <li>
+                    <a href="index.php#tienda" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
+                </li>
+                <li>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.php">Contacto</a>
+                </li>
             </ul>
-            <ul class="reloj-container">
+            <div class="reloj-container">
                 <p class="hora" id="reloj"></p>
-            </ul>
+            </div>
         </nav>
 </header>
 <body>
@@ -55,15 +61,23 @@
 		<div id="titulo-productos" class="titulo-productos">
 			<h2>Productos Ecológicos</h2>
 		</div>
-		<nav>
-			 <ul class="submenu"> 
-                <li><a href="index.php#barritas">Barritas de fruta</a></li>
-                <li><a  href="index.php#fruta-deshidratada"> Fruta Deshidratada</a></li>
-                <li><a href="index.php#maquinas-vending">Máquinas de vending</a></li>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.php#tienda" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
+                </li>
+                <li>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.php">Contacto</a>
+                </li>
             </ul>
-		</nav>
+            <div class="reloj-container">
+                <p class="hora" id="reloj"></p>
+            </div>
+        </nav>
 		<div id="contenido-producto" class="contenido-producto">
-
 			<h1>Avena Rellenas de Fresa y Pera (Sin Gluten, Sin Lactosa)</h1>
 			<div class="producto-detalle">
 				<img src="img/productos/barritas-fruta/barrita-fresa-pera.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
