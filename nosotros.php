@@ -7,27 +7,27 @@
       <link rel="stylesheet" href="estilos.css">
    </head>
    <body>
-      <header>
-         <div class="logo-container">
+    <header>
+        <div class="logo-container">
             <img src="img/main/logo.png" alt="Tienda Ecológica" class="logo">
-         </div>
-         <nav>
+        </div>
+        <nav>
             <ul class="menu">
-               <li>
-                  <a href="#tienda" onclick="mostrarSeccion('tienda');">Productos</a>
-               </li>
-               <li>
-                  <a href="nosotros.php">Sobre Nosotros</a>
-               </li>
-               <li>
-                  <a href="contacto.php">Contacto</a>
-               </li>
+                <li>
+                    <a href="index.php#barritas" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');">Productos</a>
+                </li>
+                <li>
+                    <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.php">Contacto</a>
+                </li>
             </ul>
-            <ul class="reloj-container">
-               <p class="hora" id="reloj"></p>
-            </ul>
-         </nav>
-      </header>
+            <div class="reloj-container">
+                <p class="hora" id="reloj"></p>
+            </div>
+        </nav>
+    </header>
       <div class="carrusel">
          <div class="carrusel-contenedor">
             <img src="img/carrusel/imagen1.jpg" class="carrusel-imagen" alt="Imagen 1">
@@ -39,146 +39,10 @@
             <img src="img/carrusel/gif.gif" class="carrusel-imagen" alt="Imagen 6">
          </div>
          <div class="carrusel-boton">
-            <a href="#tienda" class="btn-descubrir" onclick="mostrarSeccion('tienda');">Descubrir productos</a>
+            <a href="index.php#barritas" onclick="mostrarSeccion('tienda'); mostrarSubseccion('barritas');" class="btn-descubrir">Descubrir productos</a>
          </div>
       </div>
-      <section id="tienda" class="section" style="display: none;">
-         <div id="titulo-productos" class="titulo-productos">
-            <h2>Productos Ecológicos</h2>
-         </div>
-         <nav>
-            <ul class="submenu">
-               <!-- Llamamos a la función mostrarSubseccion al hacer clic -->
-               <li>
-                  <a href="#fruta-deshidratada" onclick="mostrarSubseccion('barritas');">Barritas de fruta</a>
-               </li>
-               <li>
-                  <a href="#fruta-deshidratada" onclick="mostrarSubseccion('fruta-deshidratada');">Fruta deshidratada</a>
-               </li>
-               <li>
-                  <a href="#maquinas-vending" onclick="mostrarSubseccion('maquinas-vending');">Máquinas de vending</a>
-               </li>
-            </ul>
-         </nav>
-         <section id="barritas" class="subseccion" style="display: none;">
-            <!-- Display por defecto -->
-            <div id="productos">
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/barrita-fresa-pera.jpg" alt="Producto" />
-                     <p>Avena Rellenas de Fresa y Pera (Sin Gluten, Sin Lactosa)</p>
-                     <div>
-                        <a href="barrita-fresa-pera.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/barrita-albaricoque-ciruelas.jpg" alt="Producto">
-                     <p>Barrita de Cereal con albaricoque, ciruelas y limón con chocolate Blanco:</p>
-                     <div>
-                        <a href="barrita-albaricoque-ciruelas.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/barrita-manzana-canela.jpg" alt="Producto">
-                     <p>Barrita de avena y manzana con canela (chocolate)</p>
-                     <div>
-                        <a href="barrita-manzana-canela.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/barrita-multifrutas.jpg" alt="Producto">
-                     <p>Barritas de cereal multifruta (con azúcar)</p>
-                     <div>
-                        <a href="barrita-cereal-multifruta.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section id="fruta-deshidratada" class="subseccion" style="display: none;">
-            <div id="productos">
-            <div class="product">
-               <div class="product-content">
-                  <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
-                  <p>Manzana Deshidratada</p>
-                  <div>
-                     <a href="manzana-deshidratada.php" class="btn-mas-informacion">Más Información</a>
-                  </div>
-               </div>
-            </div>
-            <div class="product">
-               <div class="product-content">
-                  <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
-                  <p>Pera Deshidratada</p>
-                  <div>
-                     <a href="pera-deshidratada.php" class="btn-mas-informacion">Más Información</a>
-                  </div>
-               </div>
-            </div>
-            <div class="product">
-               <div class="product-content">
-                  <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
-                  <p>Moras Deshidratadas</p>
-                  <div>
-                     <a href="moras-deshidratadas.php" class="btn-mas-informacion">Más Información</a>
-                  </div>
-               </div>
-            </div>
-            <div class="product">
-               <div class="product-content">
-                  <img src="img/productos/fruta-deshidradata.jpg	" alt="Producto">
-                  <p>Mix de Frutas Deshidratadas</p>
-                  <div>
-                     <a href="mix-frutas-deshidratadas.php" class="btn-mas-informacion">Más Información</a>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section id="maquinas-vending" class="subseccion" style="display: none;">
-            <div id="productos">
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/maquina-vending.jpg" alt="Producto">
-                     <p>Maquina de vending</p>
-                     <div>
-                        <a href="maquina-vending-snack.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="product">
-                  <div class="product-content">
-                     <img src="img/productos/maquina-vending.jpg" alt="Producto">
-                     <p>Maquina de vending</p>
-                     <div>
-                        <a href="maquina-vending-frutas.php" class="btn-mas-informacion">Más Información</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-		 <title>Sobre Nosotros - Natural Bites</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #4CAF50;
-            color: white;
-            animation: fadeIn 2s;
-        }
         h1 {
             font-size: 2.5em;
             margin: 0;
@@ -235,9 +99,6 @@
             to { opacity: 1; }
         }
     </style>
-</head>
-<body>
-
     <header>
         <h1>Sobre Nosotros</h1>
         <p>Natural Bites - Snaks saludables y deliciosos para todos</p>
@@ -276,14 +137,7 @@
             </div>
         </div>
     </div>
-
-   
-
-</body>
-		 
-		 
-		
-      <footer>
+	<footer>
          <p>© 2025 EcoFruits S.L.S. Todos los derechos reservados.</p>
       </footer>
       <script src="scripts.js"></script>
