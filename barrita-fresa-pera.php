@@ -66,7 +66,7 @@
 
 			<h1>Avena Rellenas de Fresa y Pera (Sin Gluten, Sin Lactosa)</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/barrita-fresa-pera.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/barritas-fruta/barrita-fresa-pera.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>Descubre nuestra barrita de avena rellena de fresa y pera, diseñada para ser un snack saludable y delicioso. Perfecta para cualquier momento del día.</p>

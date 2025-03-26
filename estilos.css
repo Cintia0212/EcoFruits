@@ -525,10 +525,10 @@ body, html {
 /* Pie de página */
 footer {
 	margin-top: 20px; /* Un margen superior para separar del contenido */
-    text-align: center;
-    padding: 10px 0;
-    background: #4CAF50;
-    color: white;
-    width: 100%;
-    position: relative;
+	text-align: right;
+	padding: 10px 0;
+    	background: #4CAF50;
+    	color: white;
+    	width: 100%;
+    	position: relative;
 }

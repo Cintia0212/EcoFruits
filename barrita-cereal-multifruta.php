@@ -66,7 +66,7 @@
 
 			<h1>Barrita de cereales multifrutas(con azúcar)</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/barrita-multifrutas.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/barritas-fruta/barrita-multifrutas.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>Una mezcla de frutas secas para aquellos que buscan un sabor intenso y un impulso de energía natural en cada bocado.</p>

@@ -69,7 +69,7 @@
             <h1><p>Barrita de Cereal con Albaricoque, <br>
 			Ciruelas y Limón con Chocolate Blanco</p></h1>
             <div class="producto-detalle">
-                <img src="img/productos/barrita-albaricoque-ciruelas.jpg" alt="Barrita de Albaricoque y Ciruelas" class="imagen-producto">
+                <img src="img/productos/barritas-fruta/barrita-albaricoque-ciruelas.jpg" alt="Barrita de Albaricoque y Ciruelas" class="imagen-producto">
                 <div class="descripcion-producto">
                     <h2>Descripción del Producto</h2>
                     <p>Una mezcla única de albaricoque, ciruelas y limón, con un toque de 

@@ -67,11 +67,11 @@
 
 			<h1>Mix de Frutas Deshidratas</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/fruta-deshidratada/mix-fruta-deshidratada.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>La combinación perfecta de manzana, pera, melocotón y moras, para un 
-					sabor fresco y equilibrado.🍏🍐🍑🫐</p>
+					sabor fresco y equilibrado.🍏🍐🍑🍇</p>
 					<p>Cada bolsa de 25 g es práctica y perfecta para llevar, disfrutando 
 					siempre de frutas 100% naturales en su mejor versión. 
 					¡Natural Bites es la opción ideal para una vida activa y saludable!</p>

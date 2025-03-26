@@ -67,7 +67,7 @@
 
 			<h1>Manzana Deshidratada</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/fruta-deshidratada/manzana-deshidratada.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>Un clásico delicioso, con el dulce natural de la manzana en su máxima expresión.🍏</p>

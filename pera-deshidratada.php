@@ -67,7 +67,7 @@
 
 			<h1>Pera Deshidratada</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/fruta-deshidradata.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/fruta-deshidratada/pera-deshidratada.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>Suave, dulce y perfectamente crujiente, perfecta para los amantes de la pera.🍐</p>

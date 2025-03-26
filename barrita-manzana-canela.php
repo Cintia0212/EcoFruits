@@ -66,7 +66,7 @@
 
 			<h1>Barrita de Avena y Manzana con Canela (Chocolate)</h1>
 			<div class="producto-detalle">
-				<img src="img/productos/barrita-manzana-canela.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
+				<img src="img/productos/barritas-fruta/barrita-manzana-canela.jpg" alt="Barrita de Fresa y Pera" class="imagen-producto">
 				<div class="descripcion-producto">
 					<h2>Descripción del Producto</h2>
 					<p>El sabor clásico de la manzana y canela se combina con un toque de chocolate, creando una barrita reconfortante y llena de energía.</p>
