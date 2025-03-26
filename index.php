@@ -20,7 +20,7 @@
                     <a href="nosotros.php" onclick="mostrarSeccion('sobre-nosotros');">Sobre Nosotros</a>
                 </li>
                 <li>
-                    <a href="contacto.php">Contacto</a> <!-- Se corrigió el onclick -->
+                    <a href="contacto.php" onclick="mostrarSeccion('contacto');"> Contacto</a> <!-- Se corrigió el onclick -->
                 </li>
             </ul>
             <div class="reloj-container">
