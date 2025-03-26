@@ -189,6 +189,79 @@ body, html {
 
 /* Quienes Somos? */
 
+
+
+/* Contacto */
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra el contenido en el contenedor */
+    max-width: 1200px; 
+    margin: auto;
+    border: 2px solid #8D6E63; /* El borde del contenedor principal */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Para que no se salgan los bordes */
+}
+
+.box {
+    display: flex; /* Flex para alinear contenido horizontalmente */
+    width: 100%; /* Toma todo el ancho del contenedor */
+}
+
+.info-container {
+    width: 50%; /* Ocupa la mitad del espacio */
+    padding: 20px; /* Padding para el contenido */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+.map-container {
+    width: 50%; /* Otra mitad para el mapa */
+    padding: 20px; /* Padding para el mapa */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+/* Estilo para la barra divisoria */
+.divider {
+    width: 2px; /* Ancho de la barra divisoria */
+    background-color: #8D6E63; /* Color de la barra */
+    height: auto; /* Altura automática */
+    margin: 0; /* Sin margen para que quede alineada */
+}
+
+/* Estilo del título principal */
+h1 {
+    text-align: center; /* Centra el texto del título */
+}
+
+h2 {
+    color: #333; /* Color del texto de los subtítulos */
+}
+
+/* Estilo de los letreros */
+.letrero {
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    animation: explosion 3s forwards;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.letrero1 {
+    color: green;
+    font-family: sans-serif;
+}
+
+/* Personaliza la animación */
+@keyframes explosion {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); } 
+    100% { transform: scale(1); } 
+}
+
 /* PRODUCTOS */
 
 #productos {
